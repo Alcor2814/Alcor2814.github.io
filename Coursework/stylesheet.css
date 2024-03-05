@@ -5,9 +5,6 @@ body {background-color:black; background-image: "../Images/Solar_System.jpg"}
 	font-family: Bahnschrift;
 	text-align: Left;
 }
-#Planets{
-	color: blue;
-}
 div.Planets{
 	position:absolute;
 	top: 25%;
