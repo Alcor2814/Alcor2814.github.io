@@ -1,0 +1,57 @@
+body {background-color:black; background-image: "../Images/Solar_System.jpg"}
+
+#Featured{
+	color: blue;
+	font-family: Bahnschrift;
+	text-align: Left;
+}
+div.Planets{
+	position:absolute;
+	top: 25%;
+}
+#Sun{
+	vertical-align: middle;
+	display:inline-block;
+	height:30%;
+	width:30%;
+}
+#Mercury{
+	vertical-align: middle;
+	height:1.5%;
+	width:1.5%;
+}
+#Venus{
+	vertical-align: middle;
+	height:4.7%;
+	width:4.7%;
+}
+#Earth{
+	vertical-align: middle;
+	height:5%;
+	width:5%;
+}
+#Mars{
+	vertical-align: middle;
+	height:2.5%;
+	width:2.5%;
+}
+#Jupiter{
+	vertical-align: middle;
+	height:15%;
+	width:15%;
+}
+#Saturn{
+	vertical-align: middle;
+	height:20%;
+	width:20%;
+}
+#Uranus{
+	vertical-align: middle;
+	height:8%;
+	width:8%;
+}
+#Neptune{
+	vertical-align: middle;
+	height:8%;
+	width:8%;
+}

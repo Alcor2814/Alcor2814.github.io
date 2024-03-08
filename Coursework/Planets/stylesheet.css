@@ -1,0 +1,63 @@
+body {background-color:black; background-image: "../Images/Solar_System.jpg"}
+
+#Featured{
+	color: blue;
+	font-family: Bahnschrift;
+	text-align: Left;
+}
+#Mercury{
+	height:100%;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Venus{
+	height:100%;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Earth{
+	height:100%;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Mars{
+	height:100%;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Jupiter{
+	height:100%;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Saturn{
+	height:100%;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Uranus{
+	height:100%;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Neptune{
+	height:100%;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
