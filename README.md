@@ -1,1 +1,0 @@
-# Alcor2814.github.io
