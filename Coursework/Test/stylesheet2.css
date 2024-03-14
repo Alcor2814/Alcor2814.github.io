@@ -93,7 +93,7 @@ div.Planets{
   width: 500%;
 }
 #EartOverlay {
-	position:relative;
+	position:absolute;
   top: 250%;
   left: 200%;
   transform: translate(-50%, -50%);

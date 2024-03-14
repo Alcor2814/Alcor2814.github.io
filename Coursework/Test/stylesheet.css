@@ -6,54 +6,93 @@ body {background-color:black; background-image: "../Images/Solar_System.jpg"}
 	text-align: Left;
 }
 
-div.Planets{
+.Planets{
 	position:absolute;
 	top: 25%;
-	display:inline-block;
+	display:inline;
 }
-
-#Earth{
+#Sun{
 	vertical-align: middle;
+	height:30%;
+	width:30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:10%;
+}
+#Mercury{
+	vertical-align: middle;
+	height:1.5%;
+	width:1.5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:5%;
+}
+#Venus{
+	height:4.7%;
+	width:4.7%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:5%;
+}
+#Earth{
 	height:5%;
 	width:5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:5%;
+}
+#Mars{
+	height:2.5%;
+	width:2.5%;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color:red;*/
+	display: block;
+	margin-bottom:5%;
+}
+#Jupiter{
+	height:15%;
+	width:15%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:5%;
+}
+#Saturn{
+	height:20%;
+	width:20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:5%;
+}
+#Uranus{
+	height:8%;
+	width:8%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:5%;
+}
+#Neptune{
+	height:8%;
+	width:8%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:5%;
 }
 
 
-
-
-
-
-.Planets {
-  position: relative;
-  width: 30%;
+img{
+    transition: transform 1s;
+    width:10%;
+    height:10%;
 }
-
-#image {
-  width: 10%;
-  height: 10%;
-  vertical-align:middle;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 20%;
-  width: 20%;
-  opacity: 0;
-  transition: 1s ease;
-}
-
-#icon {
-  position: absolute;
-  top: 250%;
-  left: 120%;
-  transform: translate(-50%, -50%);
-  width: 500%;
-}
-
-.container:hover .overlay {
-  opacity: 1;
+img:hover{
+    transform:scale(2);
 }
