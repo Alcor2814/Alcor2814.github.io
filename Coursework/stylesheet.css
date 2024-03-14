@@ -5,13 +5,15 @@ body {background-color:black; background-image: "../Images/Solar_System.jpg"}
 	font-family: Bahnschrift;
 	text-align: Left;
 }
+
 div.Planets{
 	position:absolute;
 	top: 25%;
+	display:inline-block;
 }
+
 #Sun{
 	vertical-align: middle;
-	display:inline-block;
 	height:30%;
 	width:30%;
 }
@@ -30,6 +32,7 @@ div.Planets{
 	height:5%;
 	width:5%;
 }
+
 #Mars{
 	vertical-align: middle;
 	height:2.5%;
