@@ -1,6 +1,6 @@
 body {
 	/*background-color:black; */
-	background-image: url("../../Images/starry.jpg");
+	background-image: url("../Images/starry.jpg");
 	 background-size: cover;
 	}
 
@@ -19,7 +19,7 @@ body {
 	height:30%;
 	width:30%;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 1%;
 	display:inline-block;
 }
 #Mercury{
@@ -28,7 +28,9 @@ body {
 	width:1.5%;
 	display: inline;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 0.5%;
+	
+	transition: transform 1.5s;
 }
 #Venus{
 	vertical-align:middle;
@@ -91,9 +93,20 @@ body {
 
 img{
     transition: transform 1s;
-    width:10%;
-    height:10%;
 }
-img:hover{
+img:hover:not(#Sun, #Jupiter, #Mercury, #Saturn){
     transform:scale(2);
 }
+#Mercury:hover{
+	transform:scale(4);
+}
+#Jupiter:hover{
+	transform:scale(1.1);
+}
+#Sun:hover{
+	transform:scale(1.1);
+}
+#Saturn:hover{
+	transform:scale(1.2);
+}
+
