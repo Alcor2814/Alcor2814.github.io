@@ -1,4 +1,8 @@
-body {background-color:black; background-image: "../Images/Solar_System.jpg"}
+body {
+	/*background-color:black; */
+	background-image: url("../../Images/starry.jpg");
+	 background-size: cover;
+	}
 
 #Featured{
 	color: blue;
@@ -6,55 +10,90 @@ body {background-color:black; background-image: "../Images/Solar_System.jpg"}
 	text-align: Left;
 }
 
-div.Planets{
+.Planets{
 	position:absolute;
 	top: 25%;
-	display:inline-block;
 }
-
 #Sun{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:30%;
 	width:30%;
+	margin-left: auto;
+	margin-right: auto;
+	display:inline-block;
 }
 #Mercury{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:1.5%;
 	width:1.5%;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
 #Venus{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:4.7%;
 	width:4.7%;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
 #Earth{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:5%;
 	width:5%;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 #Mars{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:2.5%;
 	width:2.5%;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color:red;*/
+	display: inline;
 }
 #Jupiter{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:15%;
 	width:15%;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
 #Saturn{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:20%;
 	width:20%;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
 #Uranus{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:8%;
 	width:8%;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 }
 #Neptune{
-	vertical-align: middle;
+	vertical-align:middle;
 	height:8%;
 	width:8%;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+img{
+    transition: transform 1s;
+    width:10%;
+    height:10%;
+}
+img:hover{
+    transform:scale(2);
 }
