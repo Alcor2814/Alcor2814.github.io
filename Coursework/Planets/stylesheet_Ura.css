@@ -1,0 +1,115 @@
+body {
+	background-color:black; 
+	background-image: url("../../Images/Uranus.png"); 
+	background-size:100%;
+	background-repeat:no-repeat;
+	color:white;
+	font-family:Bank Gothic;
+	}
+h1{
+	text-align: center;
+}
+
+.btn{
+	height:100px;
+	width:100px;
+	border-color:blue;
+	background:none;
+	color:white;
+	border-radius:50%;
+}
+
+.box1{
+	position:absolute;
+	left:30%;
+	top:25%;
+}
+.content1{
+	height:25%;
+	width:25%;
+	display:inline-block;
+	position:absolute;
+	opacity:0;
+	scale:0.1;
+}
+
+.box1:hover .content1 {
+	display: block;
+	opacity:1;
+	transform:scale(10);
+	width:350%;
+	left:-70%;
+	top:80%;
+}
+
+
+.box2{
+	position:absolute;
+	left:20%;
+	bottom:20%;
+}
+.content2{
+	height:25%;
+	width:25%;
+	display:inline-block;
+	position:absolute;
+	opacity:0;
+	scale:0.1;
+}
+
+.box2:hover .content2 {
+	display: block;
+	opacity:1;
+	transform:scale(10);
+	width:350%;
+	left:100%;
+	bottom:150%;
+}
+
+
+.box3{
+	position:absolute;
+	left:50%;
+	bottom:5%;
+}
+.content3{
+	height:25%;
+	width:25%;
+	display:inline-block;
+	position:absolute;
+	opacity:0;
+	scale:0.1;
+}
+
+.box3:hover .content3 {
+	display: block;
+	opacity:1;
+	transform:scale(10);
+	width:350%;
+	bottom:250%;
+	left:7%;
+}
+
+
+.box4{
+	position:absolute;
+	left:60%;
+	top:30%;
+}
+.content4{
+	height:25%;
+	width:25%;
+	display:inline-block;
+	position:absolute;
+	opacity:0;
+	scale:0.1;
+}
+
+.box4:hover .content4 {
+	display: block;
+	opacity:1;
+	transform:scale(10);
+	width:350%;
+	top:5%;
+	left:100%;
+}
