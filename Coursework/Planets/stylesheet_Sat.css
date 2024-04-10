@@ -1,6 +1,5 @@
 body {
 	background-color:black; 
-	background-image: url("../../Images/Saturn.png"); 
 	background-size:100%;
 	background-repeat:no-repeat;
 	color:white;
@@ -25,21 +24,18 @@ h1{
 	top:25%;
 }
 .content1{
-	height:25%;
-	width:25%;
 	display:inline-block;
 	position:absolute;
-	opacity:0;
-	scale:0.1;
+	visibility:collapse;
+	opacity: 0;
+	width:500%;
 }
 
 .box1:hover .content1 {
 	display: block;
+	visibility:visible;	
 	opacity:1;
-	transform:scale(10);
-	width:350%;
-	left:-70%;
-	top:80%;
+	transition:1s ease;
 }
 
 
@@ -49,21 +45,20 @@ h1{
 	top:30%;
 }
 .content2{
-	height:25%;
-	width:25%;
 	display:inline-block;
 	position:absolute;
-	opacity:0;
-	scale:0.1;
+	visibility:collapse;
+	opacity: 0;
+	top:100%;
+	left:0%;
+	width:500%;
 }
 
 .box2:hover .content2 {
 	display: block;
+	visibility:visible;	
 	opacity:1;
-	transform:scale(10);
-	width:350%;
-	left:100%;
-	bottom:150%;
+	transition:1s ease;
 }
 
 
@@ -73,21 +68,19 @@ h1{
 	bottom:25%;
 }
 .content3{
-	height:25%;
-	width:25%;
 	display:inline-block;
 	position:absolute;
+	visibility:collapse;
 	opacity:0;
-	scale:0.1;
+	bottom:100%;
+	width:400%;
 }
 
 .box3:hover .content3 {
 	display: block;
+	visibility:visible;	
 	opacity:1;
-	transform:scale(10);
-	width:350%;
-	bottom:250%;
-	left:7%;
+	transition:1s ease;
 }
 
 
@@ -97,19 +90,17 @@ h1{
 	top:30%;
 }
 .content4{
-	height:25%;
-	width:25%;
 	display:inline-block;
 	position:absolute;
+	visibility:collapse;
 	opacity:0;
-	scale:0.1;
+	width:400%;
+	left:-100%;
 }
 
 .box4:hover .content4 {
 	display: block;
+	visibility:visible;	
 	opacity:1;
-	transform:scale(10);
-	width:350%;
-	top:5%;
-	left:100%;
+	transition:1s ease;
 }
