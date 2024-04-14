@@ -73,7 +73,7 @@ button:hover{
 	text-align: Left;
 	margin-left:1%;
 	border: 1px solid blue;
-	width:10%;
+	width:150px;
 }
 
 .Planets{
@@ -175,4 +175,3 @@ img:hover:not(#Sun, #Jupiter, #Mercury, #Saturn, #Voyager){
 #Saturn:hover{
 	transform:scale(1.2);
 }
-
