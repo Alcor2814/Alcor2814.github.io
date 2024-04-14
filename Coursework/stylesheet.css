@@ -4,7 +4,6 @@ body {
 	 background-size: cover;
 }
 h2{
-	margin-left:20%;
 }
 
 button{
@@ -69,8 +68,8 @@ button:hover{
 
 #Featured{
 	color: blue;
-	font-family: Bahnschrift;
-	text-align: Left;
+	font-family: Bank Gothic;
+	text-align: center;
 	margin-left:1%;
 	border: 1px solid blue;
 	width:150px;

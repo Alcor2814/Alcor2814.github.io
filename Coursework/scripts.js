@@ -13,13 +13,16 @@ function randPage(){
 		btn = 'b'+i;
 		document.getElementById(btn).innerHTML = text1[id];
 		
+		btn = 'lb'+i;
 		var addr = folderName[id] + "/" + text2[id] + ".html";
-		document.getElementById(btn).setAttribute("href", addr);
+		document.getElementById(btn).href = addr;
 	
 		text1.splice(id, 1);
 		text2.splice(id, 1);
 		folderName.splice(id, 1);
 	} 
+
+	return 0;
 };
 
 function getRndElement(min, max){
