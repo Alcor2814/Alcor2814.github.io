@@ -1,12 +1,13 @@
 var text1 = ["Apollo Missions", "Artemis Missions", "Voyagers", "Mars Rovers", "Galaxies", "Comets", "Moon", "Stars", "Exoplanets"]
 var text2 = ["Apollo", "Artemis", "Voyager", "Mars Rovers", "Galaxies", "Comets", "Moon", "Stars", "Exoplanets"]
-var folderName = ["Featured_Missions", "Featured_Missions", "Featured_Missions", "Featured_Missions", "Notable_Phenomena", "Notable_Phenomena", "Notable_Phenomena", "Notable_Phenomena", "Notable_Phenomena"]
+var folderName = [1, 1, 1, 1, 2, 2, 2, 2, 2]
 
 
 function randPage(){
 	
 	let id = 0;
 	let btn = "b1"
+	let folder = 0;
 	
 	for (let i = 1; i < 4; i++) {
 		id = getRndElement(0, text1.length);
@@ -14,7 +15,17 @@ function randPage(){
 		document.getElementById(btn).innerHTML = text1[id];
 		
 		btn = 'lb'+i;
-		var addr = folderName[id] + "/" + text2[id] + ".html";
+		let folder = "name";
+		switch(folderName[id]){
+			case 1:
+				folder = "Featured_Missions";
+				break;
+			case 2:
+				folder = "Notable_Phenomena";
+				break;
+			default:
+		}
+		var addr = folder + "/" + text2[id] + ".html";
 		document.getElementById(btn).href = addr;
 	
 		text1.splice(id, 1);

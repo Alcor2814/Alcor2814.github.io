@@ -9,98 +9,38 @@ h1{
 	text-align: center;
 }
 
-.btn{
-	height:100px;
-	width:100px;
-	border-color:blue;
-	background:none;
-	color:white;
-	border-radius:50%;
+#Voyager{
+	
 }
 
-.box1{
+#Text1{
+	width: 50%;
+	height: 50%;
+	margin-right:5%;
+	margin-left:auto;
+	margin-top:5%;
+}
+#Text2{
+	width: 50%;
+	height: 50%;
+	margin-right:5%;
+	margin-left:auto;
+	margin-top:5%;
+}
+#Text3{
+	width: 50%;
+	height: 50%;
+	margin-right:5%;
+	margin-left:auto;
+	margin-top:5%;
+}
+
+#Return{
 	position:absolute;
-	left:30%;
-	top:25%;
+	margin-top:15%;
+	margin-left:1%;
 }
-.content1{
-	display:inline-block;
-	position:absolute;
-	visibility:collapse;
-	opacity: 0;
-	width:500%;
-}
-
-.box1:hover .content1 {
-	display: block;
-	visibility:visible;	
-	opacity:1;
-	transition:1s ease;
-}
-
-
-.box2{
-	position:absolute;
-	left:20%;
-	bottom:20%;
-}
-.content2{
-	display:inline-block;
-	position:absolute;
-	visibility:collapse;
-	opacity: 0;
-	bottom:10%;
-	left:100%;
-	width:500%;
-}
-
-.box2:hover .content2 {
-	display: block;
-	visibility:visible;	
-	opacity:1;
-	transition:1s ease;
-}
-
-
-.box3{
-	position:absolute;
-	left:50%;
-	bottom:5%;
-}
-.content3{
-	display:inline-block;
-	position:absolute;
-	visibility:collapse;
-	opacity:0;
-	bottom:100%;
-	width:400%;
-}
-
-.box3:hover .content3 {
-	display: block;
-	visibility:visible;	
-	opacity:1;
-	transition:1s ease;
-}
-
-
-.box4{
-	position:absolute;
-	left:60%;
-	top:30%;
-}
-.content4{
-	display:inline-block;
-	position:absolute;
-	visibility:collapse;
-	opacity:0;
-	width:400%;
-	left:-100%;
-}
-
-.box4:hover .content4 {
-	display: block;
-	visibility:visible;	
-	opacity:1;
-	transition:1s ease;
+#Rocket{
+	width:10%;
+	height:10%;
 }

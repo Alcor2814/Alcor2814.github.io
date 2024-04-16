@@ -3,7 +3,8 @@ body {
 	background-image: url("../Images/starry.jpg");
 	 background-size: cover;
 }
-h2{
+a:link{
+	text-decoration:none;
 }
 
 button{
