@@ -8,3 +8,35 @@ body {
 h1{
 	text-align: center;
 }
+
+#Text1{
+	width: 50%;
+	height: 50%;
+	margin-right:5%;
+	margin-left:auto;
+	margin-top:5%;
+}
+#Text2{
+	width: 50%;
+	height: 50%;
+	margin-right:5%;
+	margin-left:auto;
+	margin-top:5%;
+}
+#Text3{
+	width: 50%;
+	height: 50%;
+	margin-right:5%;
+	margin-left:auto;
+	margin-top:5%;
+}
+
+#Return{
+	position:fixed;
+	bottom:1%;
+	left:1%;
+}
+#Rocket{
+	width:10%;
+	height:10%;
+}

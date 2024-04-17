@@ -4,14 +4,11 @@ body {
 	background-repeat:no-repeat;
 	color:white;
 	font-family:Bank Gothic;
-	}
+}
 h1{
 	text-align: center;
 }
 
-#Voyager{
-	
-}
 
 #Text1{
 	width: 50%;
@@ -36,11 +33,12 @@ h1{
 }
 
 #Return{
-	position:absolute;
-	margin-top:15%;
-	margin-left:1%;
+	position:fixed;
+	bottom:1%;
+	left:1%;
 }
 #Rocket{
+	background-color:red;
 	width:10%;
 	height:10%;
 }

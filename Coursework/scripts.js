@@ -1,5 +1,5 @@
-var text1 = ["Apollo Missions", "Artemis Missions", "Voyagers", "Mars Rovers", "Galaxies", "Comets", "Moon", "Stars", "Exoplanets"]
-var text2 = ["Apollo", "Artemis", "Voyager", "Mars Rovers", "Galaxies", "Comets", "Moon", "Stars", "Exoplanets"]
+var text1 = ["Apollo Missions", "Artemis Missions", "Voyagers", "Mars Rovers", "Galaxies", "Comets", "Moon", "Stars", "Nebulae"]
+var text2 = ["Apollo", "Artemis", "Voyager", "Mars_Rovers", "Galaxies", "Comets", "Moon", "Stars", "Nebulas"]
 var folderName = [1, 1, 1, 1, 2, 2, 2, 2, 2]
 
 
